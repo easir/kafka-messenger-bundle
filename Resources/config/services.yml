@@ -1,0 +1,10 @@
+services:
+#    Easir\KafkaMessengerBundle\Transport\KafkaTransportSerializer:
+#        class: Symfony\Component\Messenger\Transport\Serialization\Serializer
+#        arguments:
+#            - '@serializer'
+    Easir\KafkaMessengerBundle\Transport\KafkaTransportFactory:
+        autowire: true
+#        arguments:
+#            - '@Easir\KafkaMessengerBundle\Transport\KafkaTransportSerializer'
+        tags: ['messenger.transport_factory']

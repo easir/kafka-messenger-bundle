@@ -1,0 +1,35 @@
+{
+  "name": "easir/kafka-messenger-bundle",
+  "description": "Kafka Symfony Messenger Transport which allows to decode messages based on topic name",
+  "type": "symfony-bundle",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/easir/coding-standard.git"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "ext-rdkafka": "^4.0.3",
+    "symfony/framework-bundle": "^4.4 || ^5.0",
+    "symfony/messenger": "^4.4 || ^5.0",
+    "symfony/serializer": "^4.0 || ^5.0"
+  },
+  "require-dev": {
+    "easir/coding-standard": "1.0.0",
+    "kwn/php-rdkafka-stubs": "^2.0.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michał Brzuchalski",
+      "email": "michal.brzuchalski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Easir\\KafkaMessengerBundle\\": ""
+    }
+  }
+}
