@@ -12,9 +12,9 @@
     "php": "^7.2|^8.0",
     "ext-json": "*",
     "ext-rdkafka": "^5.0",
-    "symfony/framework-bundle": "^4.4 || ^5.0",
-    "symfony/messenger": "^4.4 || ^5.0",
-    "symfony/serializer": "^4.0 || ^5.0"
+    "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.1",
+    "symfony/messenger": "^4.4 || ^5.0 || ^6.1",
+    "symfony/serializer": "^4.0 || ^5.0 || ^6.1"
   },
   "require-dev": {
     "easir/coding-standard": "1.0.0",
